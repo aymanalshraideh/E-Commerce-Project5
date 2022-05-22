@@ -57,9 +57,9 @@ $showw=$fromdb->fetchAll();
 				<div class="row">
 					<div class="col-md-12">
 						<ul class="breadcrumb-tree">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">All Categories</a></li>
-							<li><a href="#">Dogs</a></li>
+							<li><a href="index.php">Home</a></li>
+							
+						
 							
 							<li class="active"><?php echo $value['product_name']; ?></li>
 						</ul>

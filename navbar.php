@@ -117,7 +117,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="a href="index.php">Animalo 🐾</a>
+      <a class="navbar-brand" href="index.php">Animalo 🐾</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -143,7 +143,7 @@ foreach($data as $value):
       </ul>
       <ul class="nav navbar-nav navbar-right">
 	  
-						<li><a href=""><i class="fa fa-shopping-cart" style="margin-right=1px"> </i>   My Cart</a></li>
+						<li><a href="cart.php"><i class="fa fa-shopping-cart" style="margin-right=1px"> </i>   My Cart</a></li>
                         <ul class="nav navbar-nav">
       
       <li class="dropdown">
@@ -151,8 +151,8 @@ foreach($data as $value):
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
         <li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="./login/registration.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="./login/login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
         </ul>
       </li>
       

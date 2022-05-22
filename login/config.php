@@ -2,7 +2,7 @@
 $DBhost      = "localhost";
 $DBuser        = "root";
 $DBpassword    = "";
-$BDname        = "pets";
+$BDname        = "e_commerce";
 
 
 

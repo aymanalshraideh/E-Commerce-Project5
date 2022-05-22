@@ -7,15 +7,16 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
     if(isset($_POST['email'] ) && isset($_POST['password'])){
 
-    $statement = $DB->prepare("SELECT * FROM users WHERE email= :email AND password = :password");
+    $statement = $DB->prepare("SELECT * FROM users WHERE user_email= :email AND user_password = :password");
     $statement -> bindValue(":password", $_POST['password'] );
     $statement -> bindValue(":email", $_POST['email'] );
     $statement->execute();
     $users = $statement->fetchAll(PDO::FETCH_ASSOC);
-    }
    
+   session_start();
+   $_SESSION['userid']=$users['user_id']; }
     if(!empty($users)){
-       header("location: index.php");
+       header("location: ../userprofile.php");
 }
 
 else{

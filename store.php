@@ -130,7 +130,7 @@
 								<div class="col-md-4 col-xs-6">
 									<div class="product">
 										<div class="product-img">
-											<img src="<?php echo $fetch_products['product_main_image']; ?>" alt="">
+											<img src="./admin/products/public/<?php echo $fetch_products['product_main_image']; ?>" alt="">
 											<div class="product-label">
 
 												<span class="new">NEW</span>

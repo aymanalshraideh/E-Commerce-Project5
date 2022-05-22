@@ -44,12 +44,13 @@
   <div class="mb-3">
   <label for="CatId">Category ID</label>
       <select value="<?php $category ?>" name="category" id="CatId">
-        <option value="1">Dog</option>
-        <option value="2">Cat</option>
-        <option value="3">Dog Food</option>
-        <option value="4">Cat Food</option>
-        <option value="5">Fish</option>
-        
+      <?php $sql='SELECT * FROM categories';
+$statement=$pdo->query($sql);
+$data=$statement->fetchAll();
+foreach($data as $value): ?>
+        <option value="<?php echo $value['category_id']?>"><?php echo $value['category_name']?></option>
+       
+        <?php endforeach; ?>
       </select>
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
