@@ -54,8 +54,6 @@ require "config.php";
   overflow: hidden;
   margin-top:100px;
   margin-left:135px;
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 .pic:before

@@ -82,7 +82,7 @@ foreach($data as $value): ?>
 								<h3 class="footer-title">Service</h3>
 								<ul class="footer-links">
 									<li><a href="#">My Account</a></li>
-									<li><a href="#">View Cart</a></li>
+									<li><a href="cart.php">View Cart</a></li>
 								</ul>
 							</div>
 						</div>

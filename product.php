@@ -85,15 +85,15 @@ $showw=$fromdb->fetchAll();
 							</div>
 
 							<div class="product-preview">
-								<img src="./img/<?php echo $value['product_desc_image_1']; ?>" alt="">
+								<img src="./admin/products/public/<?php echo $value['product_desc_image_1']; ?>" alt="">
 							</div>
 
 							<div class="product-preview">
-								<img src="./img/<?php echo $value['product_desc_image_2']; ?>" alt="">
+								<img src="./admin/products/public/<?php echo $value['product_desc_image_2']; ?>" alt="">
 							</div>
 
 							<div class="product-preview">
-								<img src="./img/<?php echo $value['product_desc_image_3']; ?>" alt="">
+								<img src="./admin/products/public/<?php echo $value['product_desc_image_3']; ?>" alt="">
 							</div>
 						</div>
 					</div>
@@ -103,19 +103,19 @@ $showw=$fromdb->fetchAll();
 					<div class="col-md-2  col-md-pull-5">
 						<div id="product-imgs">
 							<div class="product-preview">
-								<img src="./img/<?php echo $value['product_main_image']; ?>" alt="">
+								<img src="./admin/products/public/<?php echo $value['product_main_image']; ?>" alt="">
 							</div>
 
 							<div class="product-preview">
-								<img src="./img/<?php echo $value['product_desc_image_1']; ?>" alt="">
+								<img src="./admin/products/public/<?php echo $value['product_desc_image_1']; ?>" alt="">
 							</div>
 
 							<div class="product-preview">
-								<img src="./img/<?php echo $value['product_desc_image_2']; ?>" alt="">
+								<img src="./admin/products/public/<?php echo $value['product_desc_image_2']; ?>" alt="">
 							</div>
 
 							<div class="product-preview">
-								<img src="./img/<?php echo $value['product_desc_image_3']; ?>" alt="">
+								<img src="./admin/products/public/<?php echo $value['product_desc_image_3']; ?>" alt="">
 							</div>
 						</div>
 					</div>

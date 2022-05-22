@@ -9,10 +9,25 @@
         <?php if($product['product_main_image']): ?>
             <img src="<?php echo $product["product_main_image"] ?>" alt="" class="edit-img">
                 <?php endif; ?>
+                <?php if($product['product_desc_image_1']): ?>
+            <img src="<?php echo $product["product_desc_image_1"] ?>" alt="" class="edit-img">
+                <?php endif; ?>
+                <?php if($product['product_desc_image_2']): ?>
+            <img src="<?php echo $product["product_desc_image_2"] ?>" alt="" class="edit-img">
+                <?php endif; ?>
+                <?php if($product['product_desc_image_3']): ?>
+            <img src="<?php echo $product["product_desc_image_3"] ?>" alt="" class="edit-img">
+                <?php endif; ?>
     <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Product Image</label>
-    <br>
+    <label for="exampleInputEmail1" class="form-label">Product Images</label>
+    <hr class="my-2">
     <input type="file" name="img">
+    <hr class="my-2">
+    <input type="file" name="img1">
+    <hr class="my-2">
+    <input type="file" name="img2">
+    <hr class="my-2">
+    <input type="file" name="img3">
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Product Title</label>

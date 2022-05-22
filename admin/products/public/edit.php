@@ -25,11 +25,17 @@ if(empty($errors)){
 
 $statement=$pdo->prepare("UPDATE products SET product_name = :title,
                                               product_main_image = :image,
+                                              product_desc_image_1 = :image1,
+                                              product_desc_image_2 = :image2,
+                                              product_desc_image_3 = :image3,
                                               product_description= :description,
                                               product_price = :price,
                                               product_categorie_id = :category WHERE product_id=:id");
  $statement->bindValue(':title', $title);
  $statement->bindValue('image', "$imagePath");
+ $statement->bindValue('image1', "$imagePath1");
+ $statement->bindValue('image2', "$imagePath2");
+ $statement->bindValue('image3', "$imagePath3");
  $statement->bindValue(':description', $description);
  $statement->bindValue(':price', $price);
  $statement->bindValue(':id', $id);

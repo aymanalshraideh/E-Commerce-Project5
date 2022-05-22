@@ -18,10 +18,10 @@ require "navbar.php"; ?>
 	
 	<!-- Item 1 -->
   <div class="item active">
-	  <img src="./img/hh.jpg"/>
+	  <img src="./img/ffff.jpg"/>
 	<div class="container">
 	  <div class="carousel-caption">
-		<h1>Welcom</h1>
+		<h1 class="h1 fw-bold">Welcome</h1>
 	  </div>
 	</div>
   </div>
@@ -31,17 +31,17 @@ require "navbar.php"; ?>
 	  <img src="./img/dd.jpg"/>
 	<div class="container">
 	  <div class="carousel-caption">
-	  <h1>Welcom</h1>
+	  <h1 class="h1 fw-bold">To Our</h1>
 	  </div>
 	</div>
   </div>
 	
 	<!-- Item 3 -->
   <div class="item">
-	  <img src="./img/hhh.jpg" />
+	  <img src="./img/cc.jpg" />
 	<div class="container">
 	  <div class="carousel-caption">
-		<h1>Welcom</h1>
+		<h1 class="h1 fw-bold shadow-lg">Store</h1>
 	  </div>
 	</div>
   </div>
@@ -55,7 +55,7 @@ require "navbar.php"; ?>
   <span class="icon-next"></span>
 </a>  
 
-<div id="carouselButtons">
+<div id="carouselButtons" style="display: none;">
 	<button id="playButton" type="button" class="btn btn-default btn-xs">
 		<span class="glyphicon glyphicon-play"></span>
 	 </button>
@@ -140,7 +140,7 @@ $data=$statement->fetchAll();
 
 										<div class="product">
 											<div class="product-img">
-												<img src="<?php echo $value['product_main_image']; ?>" alt="">
+												<img src="./admin/products/public/<?php echo $value['product_main_image']; ?>" alt="">
 												<div class="product-label">
 													
 													<span class="new">NEW</span>
@@ -213,7 +213,7 @@ $data=$statement->fetchAll();
 							</ul>
 							
 							
-							<a class="primary-btn cta-btn" href="#">Shop now</a>
+							<a class="primary-btn cta-btn" href="store.php">Shop now</a>
 						</div>
 					</div>
 				</div>
