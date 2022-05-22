@@ -71,7 +71,7 @@
 						?>
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="<?php echo $product['product_main_image']; ?>" alt="">
+										<img src="./admin/products/public/<?php echo $product['product_main_image']; ?>" alt="">
 									</div>
 									<div class="product-body">
 										<h3 class="product-name"><a href="product.php?product_id=" .<?php echo $product['product_id']; ?>><?php echo $product['product_name']; ?></a></h3>

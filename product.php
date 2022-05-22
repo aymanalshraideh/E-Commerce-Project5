@@ -81,7 +81,7 @@ $showw=$fromdb->fetchAll();
 					<div class="col-md-5 col-md-push-2">
 						<div id="product-main-img">
 							<div class="product-preview">
-								<img src="./img/<?php echo $value['product_main_image']; ?>" alt="">
+								<img src="./admin/products/public/<?php echo $value['product_main_image']; ?>" alt="">
 							</div>
 
 							<div class="product-preview">

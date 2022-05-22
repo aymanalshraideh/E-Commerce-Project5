@@ -87,7 +87,7 @@ $data=$statement->fetchAll();
 					<div class="col-md-4 col-xs-6">
 						<div class="shop">
 							<div class="shop-img">
-								<img src="<?php echo $value['category_image'];?>" alt="">
+								<img src="./admin/categorys/public/<?php echo $value['category_image'];?>" alt="">
 							</div>
 							<div class="shop-body">
 								<h3><?php echo $value['category_name'];?><br>Collection</h3>
